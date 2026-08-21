@@ -13,7 +13,14 @@
       "city": "Guayaquil",
       "countryCode": "EC",
       "region": "Ecuador"
-    }
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "melany-davila",
+        "url": "https://github.com/melany-davila"
+      }
+    ]
   },
   "work": [],
   "volunteer": [],

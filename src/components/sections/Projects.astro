@@ -180,17 +180,19 @@ const { class: className } = Astro.props;
                             </span>
                           </div>
                         )}
-                        <h4>Decisiones de Arquitectura</h4>
-                        <div class="architecture-paragraphs">
-                          {architecture_summary.split("\n\n").map((paragraph) => (
-                            <p
-                              set:html={paragraph.replace(
-                                /\*\*(.*?)\*\*/g,
-                                "<strong>$1</strong>",
-                              )}
-                            />
-                          ))}
-                        </div>
+                        {architecture_summary && (
+                          <h4>Decisiones de Arquitectura</h4>
+                          <div class="architecture-paragraphs">
+                            {architecture_summary.split("\n\n").map((paragraph) => (
+                              <p
+                                set:html={paragraph.replace(
+                                  /\*\*(.*?)\*\*/g,
+                                  "<strong>$1</strong>",
+                                )}
+                              />
+                            ))}
+                          </div>
+                        )}
                       </div>
                     </div>
 
