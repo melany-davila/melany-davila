@@ -49,7 +49,7 @@ interface Work {
   highlights: Highlight
 }
 
-type DateStr = `${string}-${string}-${string}`
+type DateStr = `${string}-${string}-${string}` | string | null
 
 interface Volunteer {
   organization: string

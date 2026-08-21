@@ -11,7 +11,7 @@ const { class: className } = Astro.props;
       education.map(({ institution, startDate, endDate, area, studyType }) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear =
-          endDate && endDate !== "null" ? new Date(endDate).getFullYear() : "Presente"
+          endDate ? new Date(endDate).getFullYear() : "Presente"
         const years = `${startYear} — ${endYear}`
 
         return (
