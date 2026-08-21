@@ -2,7 +2,7 @@
   "basics": {
     "name": "Melany Davila Zambrano",
     "label": "Imagenelogia y Radiologia",
-    "image": "/me.png",
+    "image": "public/me.png",
     "email": "melanydavila166@gmail.com",
     "phone": "+593 999976665",
     "url": "",
