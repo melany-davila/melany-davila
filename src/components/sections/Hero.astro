@@ -23,6 +23,14 @@ const linkedUrl = linkedInfo?.url
 
 const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 const { class: className } = Astro.props;
+
+const baseUrl = import.meta.env.BASE_URL.endsWith('/') 
+  ? import.meta.env.BASE_URL 
+  : `${import.meta.env.BASE_URL}/`;
+
+const imageSrc = image && (image.startsWith('http') || image.startsWith('data:'))
+  ? image
+  : `${baseUrl}${image ? image.replace(/^\//, '') : 'me.png'}`;
 ---
 
 <Section class={`hero-section ${className || ''}`}>
@@ -95,7 +103,7 @@ const { class: className } = Astro.props;
     </div>
 
     <figure class="profile-figure">
-      <img src={image} alt={name} width="128" height="128" />
+      <img src={imageSrc} alt={name} width="128" height="128" />
     </figure>
   </div>
 </Section>
