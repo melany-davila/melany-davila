@@ -6,7 +6,7 @@
     "email": "melanydavila166@gmail.com",
     "phone": "+593 999976665",
     "url": "",
-    "summary": "+5 años diseñando ERPs corporativos, microservicios y software con stacks modernos.",
+    "summary": "Soy una persona responsable, amable y comprometida. Me gusta trabajar en equipo y aprender cosas nuevas.",
     "location": {
       "address": "",
       "postalCode": "090601",
@@ -15,6 +15,7 @@
       "region": "Ecuador"
     }
   },
+  "work": [],
   "volunteer": [],
   "education": [
      {
@@ -43,47 +44,29 @@
   "publications": [],
   "skills": [
     {
-      "name": "Frontend",
+      "name": "Responsabilidad y compromiso",
       "level": "Avanzado",
-      "keywords": [
-        "Astro",
-        "SolidJS",
-        "React",
-        "Next.js",
-        "Tailwind CSS"
-      ]
+      "keywords": []
     },
     {
-      "name": "Backend & APIs",
+      "name": "Trabajo en equipo",
       "level": "Avanzado",
-      "keywords": [
-        "Node.js",
-        "Bun",
-        "Elysia",
-        "PHP",
-        "Redis"
-      ]
+      "keywords": []
     },
     {
-      "name": "Data & ORM",
+      "name": "Comunicacion efectiva",
       "level": "Intermedio",
-      "keywords": [
-        "PostgreSQL",
-        "MySQL",
-        "Drizzle ORM",
-        "TanStack"
-      ]
+      "keywords": []
     },
     {
-      "name": "Core & Tools",
+      "name": "Facilidad para aprender",
       "level": "Avanzado",
-      "keywords": [
-        "TypeScript",
-        "Python",
-        "Git",
-        "GitHub",
-        "Docker"
-      ]
+      "keywords": []
+    },
+    {
+      "name": "Manejo de herramientas de ofimatica",
+      "level": "Avanzado",
+      "keywords": []
     }
   ],
   "languages": [
@@ -97,5 +80,6 @@
     }
   ],
   "interests": [],
-  "references": []
+  "references": [],
+  "projects": []
 }

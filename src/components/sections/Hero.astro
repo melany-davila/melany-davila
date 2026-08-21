@@ -17,7 +17,8 @@ const SOCIAL_ICONS: Record<string, (_props: Record<string, unknown>) => unknown>
   Mail
 }
 
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
+const safeProfiles = profiles || [];
+const linkedInfo = safeProfiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
 const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
@@ -73,7 +74,7 @@ const { class: className } = Astro.props;
             )
           }
           {
-            profiles.map(({ network, url }) => {
+            safeProfiles.map(({ network, url }) => {
               const Icon = SOCIAL_ICONS[network]
               return (
                 <a
