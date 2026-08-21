@@ -11,9 +11,9 @@ const { class: className } = Astro.props;
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear()
+          const startYear = startDate ? new Date(startDate).getFullYear() : ""
           const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
+            endDate ? new Date(endDate).getFullYear() : "Actual"
 
           return (
             <li class="job-item">

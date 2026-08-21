@@ -9,10 +9,9 @@ const { class: className } = Astro.props;
   <ul class="edu-list">
     {
       education.map(({ institution, startDate, endDate, area, studyType }) => {
-        const startYear = new Date(startDate).getFullYear()
-        const endYear =
-          endDate ? new Date(endDate).getFullYear() : "Presente"
-        const years = `${startYear} — ${endYear}`
+        const startYear = startDate ? new Date(startDate).getFullYear() : ""
+        const endYear = endDate ? new Date(endDate).getFullYear() : "Presente"
+        const years = startYear ? `${startYear} — ${endYear}` : endYear
 
         return (
           <li class="edu-item">

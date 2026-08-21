@@ -49,14 +49,14 @@ interface Work {
   highlights: Highlight
 }
 
-type DateStr = `${string}-${string}-${string}` | string | null
+type DateStr = `${string}-${string}-${string}` | string
 
 interface Volunteer {
   organization: string
   position: string
   url: string
   startDate: DateStr
-  endDate: DateStr
+  endDate: DateStr | null
   summary: string
   highlights: Highlight
 }
@@ -95,7 +95,7 @@ interface Education {
   area: string
   studyType: string
   startDate: DateStr
-  endDate: DateStr
+  endDate: DateStr | null
   score: string
   courses: Array<string>
 }
