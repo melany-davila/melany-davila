@@ -1,10 +1,10 @@
 {
   "basics": {
-    "name": "John Douglas León",
-    "label": "Full-Stack Developer · Arquitecturas de Alto Rendimiento",
+    "name": "Melany Davila Zambrano",
+    "label": "Imagenelogia y Radiologia",
     "image": "/me.webp",
-    "email": "jhonleon2001@gmail.com",
-    "phone": "+593 991266859",
+    "email": "melanydavila166@gmail.com",
+    "phone": "+593 999976665",
     "url": "",
     "summary": "+5 años diseñando ERPs corporativos, microservicios y software con stacks modernos.",
     "location": {
@@ -13,55 +13,27 @@
       "city": "Guayaquil",
       "countryCode": "EC",
       "region": "Ecuador"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "jhonlz2011",
-        "url": "https://www.linkedin.com/in/jhon-leon-006595182/"
-      },
-      {
-        "network": "GitHub",
-        "username": "John Douglas León",
-        "url": "https://github.com/Jhonlz09"
-      }
-    ]
-  },
-  "work": [
-    {
-      "name": "Aistermcon S.A.",
-      "position": "Administrador de Sistemas e Infraestructura (Sysadmin)",
-      "url": "https://aistermcon.com",
-      "startDate": "2023-06-15",
-      "endDate": "2026-01-15",
-     "summary": "Responsable de la disponibilidad y escalabilidad del ecosistema crítico de la empresa. Gestioné el ciclo de vida completo de producción del ERP corporativo, optimizando despliegues en entornos on-premise (Ubuntu Server) y garantizando la integridad de los datos mediante estrategias de Disaster Recovery y endurecimiento de seguridad (Hardening).",
-  "highlights": [
-    "Lideré la transformación digital de la empresa mediante la implementación y despliegue integral del sistema de gestión operativa.",
-    "Aseguré un uptime del 99.9% mediante la administración proactiva de infraestructura Linux y tuning de bases de datos MySQL.",
-    "Automaticé el ciclo de backups y tareas de mantenimiento mediante scripts (Bash), reduciendo el riesgo de pérdida de datos a cero.",
-    "Implementé políticas de seguridad perimetral y gestión de accesos para proteger los activos digitales de la compañía."
-  ]
     }
-  ],
+  },
   "volunteer": [],
   "education": [
-    {
-      "institution": "Tecnológico Universitario Espíritu Santo",
-      "url": "https://academico.tes.edu.ec/",
-      "area": "Desarrollo de Software",
-      "studyType": "Tecnólogo",
-      "startDate": "2021-01-01",
-      "endDate": "2024-04-01",
+     {
+      "institution": "Unidad Educativa Nuestra Señora de la Carmen",
+      "url": "https://nsc.edu.ec/",
+      "area": "Bachillerato General Unificado",
+      "studyType": "Bachiller en Ciencias",
+      "startDate": "2020-04-05",
+      "endDate": "2025-04-05",
       "score": "",
       "courses": []
     },
     {
-      "institution": "Cambridge English Assessment",
-      "url": "",
-      "area": "Linguaskill English Test",
-      "studyType": "CEFR Level B2",
-      "startDate": "2024-04-05",
-      "endDate": "null",
+      "institution": "Tecnológico Instituto Superior Tecnologico Bolivariano",
+      "url": "https://itb.edu.ec/",
+      "area": "Imagenelogia y Radiologia",
+      "studyType": "Tecnólogia Superior",
+      "startDate": "2026-01-01",
+      "endDate": "2027-04-01",
       "score": "",
       "courses": []
     }
@@ -121,177 +93,9 @@
     },
     {
       "language": "English",
-      "fluency": "Intermedio/Técnico"
+      "fluency": "Basico"
     }
   ],
   "interests": [],
-  "references": [],
-  "projects": [
-    {
-      "name": "Aistermcon - ERP Corporativo e Infraestructura",
-      "isActive": false,
-      "description": "Sistema ERP integral con módulos de ventas, inventario, RRHH y control de accesos (RBAC). Construido en arquitectura monolítica y desplegado en servidor Ubuntu garantizando latencia cero y alta disponibilidad.",
-      "architecture_summary": "**Arquitectura y Lógica de Negocio:**\nDesarrollo de un sistema monolítico robusto utilizando PHP y JavaScript. El ERP centraliza la gestión operativa con módulos complejos: dashboard analítico, control de inventario, flujo de compras/ventas y recursos humanos (horarios de empleados). Se implementó un estricto Control de Acceso Basado en Roles (RBAC), cargas masivas de datos, pipelines para el envío automático de correos y motores de generación de reportes documentales en PDF y Excel.\n\n**Infraestructura y Toma de Decisiones Técnicas:**\nPara las operaciones críticas, la latencia de red y la dependencia de internet externo eran riesgos inasumibles. En lugar de un despliegue Cloud/PaaS, tomé la decisión arquitectónica de realizar un aprovisionamiento On-Premise (Bare-Metal) en un servidor físico local corriendo Ubuntu. Esto redujo a cero la latencia de la intranet para los operarios.\n\n**Administración Integral (IT Ops):**\nConfiguración y mantenimiento de todo el entorno de producción desde cero. Esto incluyó la administración del servidor web, configuración de firewalls de red local y la programación de scripts automatizados (cron jobs) para los respaldos diarios de la base de datos MySQL, asegurando la continuidad del negocio.",
-      "images": [
-        {
-          "src": "/projects/aistermcon-1.png",
-          "caption": "Inicio de sesion: credenciales de usuario"
-        },
-        {
-          "src": "/projects/aistermcon-2.png",
-          "caption": "Panel de control: resumen de sistema de gestion"
-        },
-        {
-          "src": "/projects/aistermcon-3.png",
-          "caption": "Inventario: gestion de productos y historial de movimentos"
-        },
-        {
-          "src": "/projects/aistermcon-4.png",
-          "caption": "Modal para creacion de nuevo producto"
-        },
-        {
-          "src": "/projects/aistermcon-5.png",
-          "caption": "Movimientos: salidas de productos por fecha, orden y cliente"
-        },
-        {
-          "src": "/projects/aistermcon-7.png",
-          "caption": "Formulario para registro de nuevas salidas"
-        },
-        {
-          "src": "/projects/aistermcon-8.png",
-          "caption": "Formulario para el registro de nuevas compras"
-        },
-        {
-          "src": "/projects/aistermcon-9.png",
-          "caption": "Horario: control de tiempo y gastos diarios por empleado"
-        },
-        {
-          "src": "/projects/aistermcon-6.png",
-          "caption": "Carga masiva de datos"
-        },
-        {
-          "src": "/projects/aistermcon-10.png",
-          "caption": "Formulario de configuracion para el envio automatico de correos"
-        }
-      ],
-      "highlights": [
-        "PHP",
-        "JavaScript",
-        "MySQL",
-        "Ubuntu server",
-        "Sysadmin"
-      ],
-      "url": "https://sistemaaistermcon.com/aistermcon/",
-      "github": "https://github.com/Jhonlz09/aistermcon"
-    },
-    {
-      "name": "Microservicio IA - Reconocimiento Facial",
-      "isActive": true,
-      "description": "API REST independiente desarrollada en Python para validación biométrica en tiempo real. Arquitectura desacoplada diseñada para aislar cargas intensivas de Computer Vision y evitar bloqueos en las aplicaciones consumidoras.",
-      "architecture_summary": "**El Desafío (CPU-Bound vs I/O-Bound):**\nEl procesamiento de imágenes y la extracción de características faciales son tareas computacionalmente intensivas. Si esta lógica se acoplara al backend principal, bloquearía el hilo de ejecución (Event Loop), degradando severamente el rendimiento de toda la aplicación web para el resto de los usuarios.\n\n\n\n**Diseño Desacoplado y Stack Técnico:**\nPara resolver esto, extraje la lógica a un microservicio independiente. Elegí Python por su maduro y superior ecosistema para Machine Learning, procesamiento de tensores y Visión Computacional. El servicio recibe *payloads* con imágenes, extrae *embeddings* (vectores faciales) y realiza la comparación matemática para confirmar identidades de forma segura y con baja latencia.\n\n**Escalabilidad Elástica (Stateless):**\nAl estar diseñado como una API REST *stateless* (sin estado), la arquitectura permite un escalado horizontal elástico y granular. Esto significa que podemos levantar contenedores o instancias adicionales exclusivas para este microservicio de IA, optimizando dramáticamente los costos de infraestructura del negocio.",
-      "images": [
-        {
-          "src": "/projects/ia-1.webp",
-          "caption": "Pipeline de detección y autenticación facial"
-        },
-        {
-          "src": "/projects/ia-2.webp",
-          "caption": "Dashboard de resultados biométricos"
-        }
-      ],
-      "highlights": [
-        "Python",
-        "Microservicios",
-        "Computer Vision",
-        "APIs REST",
-        "Biometría"
-      ],
-      "github": "https://github.com/Jhonlz2011"
-    },
-    {
-      "name": "Zelys ERP",
-      "isActive": true,
-      "description": "ERP corporativo modular construido en un entorno Monorepo. Rendimiento extremo garantizado con SolidJS (Frontend) y Bun+Elysia (Backend), con tipado estricto de extremo a extremo.",
-      "demo_credentials": {
-        "user": "superadmin",
-        "password": "password123"
-      },
-      "architecture_summary": "**Arquitectura Monorepo y E2E Type-Safety:**\nEl proyecto se estructura como un Monorepo dividiendo el código en paquetes lógicos (Frontend, Backend, Schemas). Se utiliza Drizzle ORM y Valibot para definir la fuente de verdad de los datos en un paquete compartido. Mediante *Eden* (el cliente RPC de Elysia), el frontend consume los endpoints con tipado estricto de extremo a extremo, eliminando la necesidad de regenerar tipos manualmente y previniendo errores de discrepancia en producción.\n\n\n\n**Frontend Reactivo y UI Adaptativa:**\nPara renderizar las complejas vistas de los módulos (CRM, Producción, Finanzas, RRHH), se eligió SolidJS por su reactividad granular sin Virtual DOM. La UI está construida con Tailwind CSS v4, Kobalte UI y el ecosistema TanStack (Router, Query, Form). Para manejar miles de registros sin bloquear el navegador, se implementó TanStack Virtual y Table. La interfaz es altamente adaptativa: utiliza un patrón de diseño que renderiza tablas densas en Desktop y *List Cards* optimizadas en dispositivos móviles.\n\n**Backend, Real-Time y Procesamiento de Datos:**\nEl motor del sistema corre sobre Bun y ElysiaJS, ofreciendo un throughput hasta 4x superior a Node/Express. Se integró Redis para el manejo eficiente de caché y Server-Sent Events (SSE) nativos de Elysia para actualizaciones en tiempo real sin el overhead de WebSockets. Destaca la integración de una base de datos PostgreSQL aislada que contiene el dataset completo de contribuyentes del SRI, permitiendo búsquedas instantáneas por RUC o Razón Social directamente en el flujo de facturación.\n\n**DevOps y Despliegue (Self-Hosted PaaS):**\nLa infraestructura fue aprovisionada en un Droplet de DigitalOcean. Utilizando Coolify como plataforma autogestionada (Open-Source PaaS), toda la aplicación y sus bases de datos se despliegan automáticamente a través de contenedores Docker, garantizando un entorno de producción aislado, escalable y reproducible.",
-      "images": [
-        {
-          "src": "/projects/erp-1.png",
-          "caption": "Inicio de sesion"
-        },
-        {
-          "src": "/projects/erp-2.png",
-          "caption": "Pagina de proveedores"
-        },
-        {
-          "src": "/projects/erp-3.png",
-          "caption": "Fomulario de proveedores: integracion con SRI consulta por RUC y geonames api externas"
-        },
-        {
-          "src": "/projects/erp-4.png",
-          "caption": "Pagina de usuarios, roles y permisos" 
-        },
-        {
-          "src": "/projects/erp-5.png",
-          "caption": "Formulario de usuarios" 
-        },
-        {
-          "src": "/projects/erp-6.png",
-          "caption": "Vista para detalles, sesiones y actividad por usuario" 
-        },
-        {
-          "src": "/projects/erp-7.png",
-          "caption": "Pagina de perfil" 
-        },
-        {
-          "src": "/projects/erp-8.png",
-          "caption": "Gestion de sesiones para la cuenta de usuario" 
-        }
-
-      ],
-      "highlights": [
-        "SolidJS & TanStack",
-        "Bun + Elysia (Eden)",
-        "PostgreSQL + Redis",
-        "Docker & Coolify"
-      ],
-      "url": "https://zelys.app/",
-      "github": "https://github.com/Jhonlz2011/app-solid"
-    },
-    {
-      "name": "Facturación Electrónica SRI (Ecuador)",
-      "isActive": false,
-      "description": "Orquestador de comprobantes electrónicos (Facturas, Guías, Retenciones) que implementa algoritmos tributarios (Módulo 11) y firma electrónica en formato XAdES-BES. Cuenta con una máquina de estados para autorización asíncrona (SOAP) y tolerancia a fallos de red contra los Web Services del SRI.",
-      "architecture_summary": "**El Desafío (Criptografía y Orquestación de Esquemas XML):**\nLa emisión de comprobantes electrónicos para el SRI exige el cumplimiento de estrictos esquemas XSD, el cálculo matemático del dígito verificador ( Módulo 11) y procesos de firma electrónica (XAdES-BES) leyendo contenedores PKCS#12.\n\n**Diseño SPA Monolítico y Stack Frontend:**\nLa arquitectura se estructura como una Single-Page Application (SPA) optimizada, impulsada por React 19 y empaquetada con Vite. A nivel de UI, utiliza Tailwind CSS v4 para un sistema de diseño utilitario, modular y responsivo. Toda la capa de presentación y la máquina de estados del flujo de emisión (Borrador -> Firmado -> Enviado -> Autorizado) se consolidan eficientemente en el componente orquestador.\n\n**Client-Side Processing y Camino a la Escalabilidad:**\nLa aplicación implementa un patrón de procesamiento en el cliente (Client-Side Processing), trasladando la carga computacional de la generación de XML (Facturas, Guías de Remisión, Notas de Crédito, Retenciones) directamente al navegador del usuario. Aunque actualmente opera como un MVP Monolítico en el Frontend (simulando la firma y la comunicación asíncrona). En el futuro, el motor de UI enviará *payloads* a un microservicio Backend *stateless* dedicado a la inyección de la firma XAdES-BES y la comunicación con los servidores del SRI, garantizando cumplimiento, seguridad y escalabilidad elástica en producción.",
-      "images": [
-        {
-          "src": "/projects/sri-1.png",
-          "caption": "Interfaz principal"
-        },
-        {
-          "src": "/projects/sri-2.png",
-          "caption": "Proceso de generacion XML ante el SRI"
-        },
-        {
-          "src": "/projects/sri-3.png",
-          "caption": "Proceso de firma y envio ante el SRI"
-        },
-        {
-          "src": "/projects/sri-4.png",
-          "caption": "Proceso de autorización ante el SRI"
-        }
-      ],
-      "highlights": [
-        "React",
-        "Tailwind CSS v4",
-        "XAdES-BES",
-        "Soap API",
-        "SRI Web Services"
-      ],
-      "github": "https://github.com/Jhonlz09/app-sri"
-    }
-  ]
+  "references": []
 }
